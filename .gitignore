@@ -18,3 +18,5 @@ yarn-error.log*
 *.njsproj
 *.sln
 *.sw*
+stories/Button/button.stories.js
+stories/Button/Esempi.md
