@@ -10,6 +10,7 @@ export default {
   props: {
     msg: String,
     color: String,
+    size: String,
     className: String,
     outline: Boolean
   },
