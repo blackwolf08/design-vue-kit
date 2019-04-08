@@ -102,7 +102,7 @@ import { Alert } from "design-vue-kit";
 
 <template>
     <Alert>
-        Questo è un alert
+        This is alert!.
     </Alert>
 </template>
 
