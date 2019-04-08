@@ -1,4 +1,6 @@
 import Vue from 'vue'
+import BootstrapVue from 'bootstrap-vue'
+
 import App from './App.vue'
 
 //Importing necessary modules..
@@ -9,7 +11,6 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap-vue/dist/bootstrap-vue.min.css'
 import 'bootstrap-italia/dist/css/bootstrap-italia.min.css'
 
-import BootstrapVue from 'bootstrap-vue'
 
 
 //using BootstrapVue
