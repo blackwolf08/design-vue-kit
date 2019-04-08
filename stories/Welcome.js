@@ -48,68 +48,48 @@ export default {
   },
 
   template: `
+  
     <div :style="main">
-      <h1>Welcome to STORYBOOK</h1>
-      <p>
-        This is a UI component dev environment for your app.
-      </p>
-      <p>
-        We've added some basic stories inside the
-        <br />
-        <code :style="code">src/stories</code>
-        <br />
-        directory.
-        <br />
-        A story is a single state of one or more UI components. You can have as many stories as
-        you want.
-        <br />
-        (Basically a story is like a visual test case.)
-      </p>
-      <p>
-        See these sample
-        <br />
-        <a :style="link" @click="onClick" role="button" tabIndex="0">stories</a>
-        <br />
-        for a component called
-        <br />
-        <code :style="code">Button</code>
-        .
-      </p>
-      <p>
-        Just like that, you can add your own components as stories.
-        <br />
-        You can also edit those components and see changes right away.
-        <br />
-        (Try editing the <code :style="code">Button</code> component
-        located at <code :style="code">src/stories/Button.js</code>.)
-      </p>
-      <p>
-        This is just one thing you can do with Storybook.
-        <br />
-        Have a look at the
-        <br />
-        <a
-          :style="link"
-          href="https://github.com/storybooks/storybook"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Storybook
-        </a>
-        <br />
-        repo for more information.
-      </p>
-      <p :style="note">
-        <b>NOTE:</b>
-        <br />
-        Have a look at the
-        <br />
-        <code :style="code">.storybook/webpack.config.js</code>
-        <br />
-        to add webpack
-        loaders and plugins you are using in this project.
-      </p>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <div class="container">
+    <div class="row justify-content-md-center">
+        <div class="col-md-10 my-4">
+            <h1 class="text-center">Vue Kit</h1>
+            <div class="col-4 mx-auto">
+            <img crossorigin="anonymous" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1280px-Vue.js_Logo_2.svg.png" class="svg" width="100" height="100" style="margin-left:430px;">
+            </div>
+            <p class="small text-muted text-center">Il kit vue per la Pubblica Amministrazione</p>
+            <p>Vue Kit è un <b>set di componenti open-source per Vue</b> conforme alle Linee guida di design per i servizi digitali della PA, costruito sulle basi dello <a
+                    href="https://github.com/italia/design-ui-kit"
+                    target="_blank" rel="noopener noreferrer">UI Kit <i
+                    class="it-external-link"></i></a> e della libreria <a
+                    href="https://italia.github.io/bootstrap-italia/"
+                    target="_blank" rel="noopener noreferrer">Bootstrap
+                    Italia <i class="it-external-link"></i></a>. Per iniziare, è sufficiente installare il pacchetto <code>npm</code> attraverso il seguente comando:</p>
+            <p class="text-center"><code>npm install design-Vue-kit --save</code></p>
+            <p>È necessario includere i file dei font attraverso un CSS separato, di cui si può trovare i sorgenti ed un esempio <a
+                href="https://github.com/italia/design-Vue-kit/tree/master/assets">qui</a>.</p>
+            <p>È possibile contribuire al progetto con il proprio codice o attraverso la segnalazione di bug al <a
+                    href="https://italia.github.io/bootstrap-italia/">repository
+                    ufficiale</a> di Vue Kit o scrivendoci sul <a
+                    href="https://developersitalia.slack.com/messages/C7VPAUVB3/"
+                    target="_blank" rel="noopener noreferrer">canale dedicato <i
+                    class="it-external-link"></i></a> su Slack.</p>
+            <p>Il codice sorgente è presente nella directory <code>stories</code> del progetto. Una <code>story</code> è un singolo stato di uno o più componenti UI. Per maggiori informazioni, puoi far riferimento all'ambiente usato per mostrare i componenti:: <a
+                    href="https://storybook.js.org/">Storybook
+                </a>.
+            </p>
+            <p class="font-weight-bold small text-center">Attenzione: la libreria è ancora in fase di sviluppo e non contiene tutti i componenti disponibili nello UI Kit o in Bootstrap Italia.</p>
+            <p class="small">Il progetto è distribuito con licenza BSD-3 (consultabile nel file <a
+                    href="https://github.com/italia/design-Vue-kit/blob/master/LICENSE">LICENSE</a>), un modello ancora più permissivo della classica licenza GPL, in quanto consente di modificare e ridistribuire questo software secondo varie modalità, anche di tipo closed-source.</p>
+        </div>
     </div>
+</div>
   `,
 
   methods: {
