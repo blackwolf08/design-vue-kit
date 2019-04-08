@@ -68,7 +68,7 @@ stories
 
 Some basic rules for structuring the components:
 
-* JS file component files use JSX syntax.
+* VUE file component files use VUE syntax.
 * The `.stories.js` files only restore the relative component only.
 
 Once you have created a new component, with its history, starting *Storybook* will be able to check that everything works as it should.
@@ -105,6 +105,12 @@ import { Alert } from "design-vue-kit";
         Questo è un alert
     </Alert>
 </template>
+
+<style>
+</style>
+
+<script>
+</script>
 
 #### Peer dependencies
 
