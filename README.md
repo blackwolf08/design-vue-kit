@@ -117,7 +117,7 @@ $ yarn install --peers
 ```
 or alternatively manually
 ```sh
-$ yarn install @vue-cli
+$ yarn install vue
 ```
 
 #### CSS styles
