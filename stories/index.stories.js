@@ -124,38 +124,39 @@ storiesOf('Button', module)
           backgroundColor: #ffffff;
           transition: background-color 0.2s;
           textAlign: initial;
+          width:100%;
         ">
-          <section>
-            <div>
-                <Button color="primary" size="lg" class="mr-1 btn-lg">
-                    Primary Large
-                </Button>
-                <Button color="secondary" size="lg btn-lg">
-                    Secondary Large
-                </Button>
-                <div class="mt-3" />
-                <Button color="primary" size="sm" class="mr-1  btn-sm">
-                    Primary Small
-                </Button>
-                <Button color="secondary" size="sm" class=" btn-sm">
-                    Secondary Small
-                </Button>
-                <div class="mt-3" />
-                <Button color="primary" size="xs" class="mr-1 btn-xs">
-                    Primary Mini
-                </Button>
-                <Button color="secondary" size="xs" class="btn-xs">
-                    Secondary Mini
-                </Button>
-                <div class="mt-3" />
-                <Button color="primary" block class="d-block mb-1" style="width:100%">
-                    Primary Block
-                </Button>
-                <Button color="secondary" block class="d-block" style="width:100%">
-                    Secondary Block
-                </Button>
-            </div>
-          </section>
+        <h4 class="mb-2">Dimensioni</h4>
+        <hr>
+        <p class="mb-2 small">Per ottenere bottoni di dimensione più grande o più piccola, è sufficiente utilizzare rispettivamente la proprietà size con valore lg e sm.</p>
+        <hr>
+          <Button color="primary" size="lg" class="mr-1">
+              Primary Large
+          </Button>
+          <Button color="secondary" size="lg">
+              Secondary Large
+          </Button>
+          <div class="mt-3" />
+          <Button color="primary" size="sm" class="mr-1">
+              Primary Small
+          </Button>
+          <Button color="secondary" size="sm">
+              Secondary Small
+          </Button>
+          <div class="mt-3" />
+          <Button color="primary" size="xs" class="mr-1">
+              Primary Mini
+          </Button>
+          <Button color="secondary" size="xs">
+              Secondary Mini
+          </Button>
+          <div class="mt-3" />
+          <Button color="primary" block class="mb-1" style="width:100%">
+              Primary Block
+          </Button>
+          <Button color="secondary" block style="width:100%">
+              Secondary Block
+          </Button>
         </div>
       </div>
   
