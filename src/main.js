@@ -1,4 +1,5 @@
 import Vue from 'vue'
+import 'jquery/src/jquery.js'
 import BootstrapVue from 'bootstrap-vue'
 
 
