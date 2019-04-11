@@ -6,11 +6,11 @@ import "../assets/docs.min.css";
 import "../assets/css/fonts.css";
 
 
-
 addParameters({
   options: {
       name: 'Design Vue Kit',
       url: 'https://github.com/italia/design-vue-kit',
+      theme,
   },
 });
 
