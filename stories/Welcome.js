@@ -59,9 +59,11 @@ export default {
     <div class="container">
     <div class="row justify-content-md-center">
         <div class="col-md-10 my-4">
+            <div class="col-4 mx-auto">
             <h1 class="text-center">Vue Kit</h1>
             <div class="col-4 mx-auto">
-            <img crossorigin="anonymous" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1280px-Vue.js_Logo_2.svg.png" class="svg" width="100" height="100" style="margin-left:100px;">
+              <img crossorigin="anonymous" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1280px-Vue.js_Logo_2.svg.png" class="svg" width="100" height="100">
+            </div>
             </div>
             <p class="small text-muted text-center">Il kit vue per la Pubblica Amministrazione</p>
             <p>Vue Kit è un <b>set di componenti open-source per Vue</b> conforme alle Linee guida di design per i servizi digitali della PA, costruito sulle basi dello <a
